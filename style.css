@@ -1,12 +1,25 @@
 body {
     display: flex;
     justify-content: center;
+    height: 100vh;
+    align-content: center;
 }
 
+.switcher{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}   
 .form {
     display: flex;
     flex-direction: column;
     width: 50%;
+    height: auto;
+}
+
+#txt{
+    margin: 0px 0px 0px 0px;
 }
 
 .form input{
@@ -19,3 +32,45 @@ body {
     width: 200px;
     margin-top: 18.4px;
 }
+
+
+  .checkbox-box input[type="checkbox"] {
+    display: none;
+  }
+
+  .checkbox-box label {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    display: block;
+    margin: auto;
+    transition: 0.2s;
+  }
+
+  .checkbox-box label:hover {
+    background-color: darkred;
+  }
+
+  .checkbox-box .check {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    width: 20px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 0 5px 5px;
+    transform: translate(-50%, -50%) rotate(-45deg);
+    opacity: 0;
+    transition: 0.5s;
+  }
+
+  .checkbox-box input[type="checkbox"]:checked + label {
+    background-color: green;
+  }
+
+  .checkbox-box input[type="checkbox"]:checked + label .check {
+    opacity: 1;
+  } 

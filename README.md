@@ -61,4 +61,4 @@ Ce projet, réalisé en groupe dans le cadre d'un exercice pratique, a pour obje
 ## Utilisation du projet
 1. Clonez le repository :
    ```bash
-   git clone <URL_du_repository>
+   git clone https://github.com/Its-Malo/evalVersioning.git

@@ -10,13 +10,25 @@
     <form action="POST" class="form">
         <label for="nom">Nom</label>
         <input type="text" name="nom">
-        <label for="nom">Pénom</label>
+        <label for="prenom">Pénom</label>
         <input type="text" name="prenom">
-        <label for="nom">Email</label>
+        <div class="emailLabel">
+            <label for="email">Email</label>
+            <p id="tooltip1">?</p>
+            <div class="option">
+                <p>Utilisez une email valide (exemple@gmail.com)</p>
+            </div>
+        </div>
         <input type="email" name="email">
-        <label for="nom">Téléphone</label>
+        <div class="telLabel">
+            <label for="téléphone">Téléphone</label>
+            <p id="tooltip2">?</p>
+            <div class="option">
+                <p>Utilisez un numéro de téléphone Français valide (+33)</p>
+            </div>
+        </div>
         <input type="number" name="tel">
-        <label for="nom">Message</label>
+        <label for="message">Message</label>
         <input type="text" name="message">
         <input type="submit" id="submit">
     </form>

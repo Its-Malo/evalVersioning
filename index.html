@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
+
 <body>
     <form action="POST" class="form">
         <label for="nom">Nom</label>
@@ -18,7 +20,17 @@
         <input type="number" name="tel">
         <label for="nom">Message</label>
         <input type="text" name="message">
+        <div class="switcher">
+            <p id="txt">j'accepte les conditions générales d'utilisation :</p>
+            <div class="checkbox-box">
+                <input type="checkbox" id="checkbox">
+                <label for="checkbox">
+                    <div class="check"></div>
+                </label>
+            </div>
+        </div>
         <input type="submit" id="submit">
     </form>
 </body>
+
 </html>

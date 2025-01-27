@@ -3,7 +3,7 @@
 Ce projet, réalisé en groupe dans le cadre d'un exercice pratique, a pour objectif de développer un formulaire de contact en HTML et CSS, tout en utilisant des composants personnalisés. Il met en avant nos compétences techniques en développement web ainsi que notre maîtrise des outils Git et GitHub pour une collaboration efficace.
 
 ## Membres de l'équipe
-- **Valentin Barneoud**
+- **Valentin Barneoud ALIAS Valtio24**
 - **Malo Hardouin**
 
 ---
